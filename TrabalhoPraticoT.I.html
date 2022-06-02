@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif&family=Roboto:wght@100&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo:wght@900&family=Lobster&family=Noto+Serif&family=Roboto:wght@100&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+.Principal{
+	background-image:url("https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-01.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	background-size:cover;
+}
+
+.Principal1{
+	background-image:url("https://cdn.pixabay.com/photo/2016/05/02/17/03/cloves-1367675_1280.jpg");
+	background-repeat: no-repeat;
+	height:700px;
+	background-size:cover;
+	color:black;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	margin-top:0px;
+	padding-top:20px;
+}
+
+.Principal2{
+	background-image:url("https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-03.jpg");
+	background-repeat: no-repeat;
+	height:100%;
+	background-size:cover;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	margin-top:-83px;
+	padding-top:120px;
+	margin-bottom:0px;
+	background-color:gray;
+}
+
+.Principal3{
+	background-image:url("https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-04.jpg");
+	background-repeat: no-repeat;
+	height:800px;
+	background-size:cover;
+	color:white;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	margin-top:-80px;
+	padding-top:20px;
+ 
+}
+p{
+	color:gray;
+}
+
+ul{
+
+	list-style-type: none;
+	display:flex;
+	margin-top:10px;
+	margin-left:40%;
+	font-family: 'Philosopher', sans-serif;	
+}
+
+li a {
+	display: block;
+	padding: 10px ;
+	text-decoration: none;
+	font-size:18px;
+	color: black;
+}
+a:hover {
+    color: blue;
+}
+
+.disp_com_list{
+	display:flex;
+	background-color:white;
+}
+span{
+
+	font-family: 'Philosopher', sans-serif;
+	font-size:100px;
+}
+.texto{
+	margin-left:100px;
+	color:black;
+	margin-top:200px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+}
+.button{
+	margin-top:10px;
+	margin-left:200px;
+	background-color:#959d93;
+	padding:20px;
+	color:white;
+	font-size:20px;
+	width:200px;
+	border: 2px solid #959d93;
+	border-radius: 120px;
+	font-family: 'Philosopher', sans-serif;
+	margin-bottom:20px;
+}
+
+.button:hover {
+	background-color: #efe8d7;
+	border: 2px solid  #efe8d7;
+}
+.button6:hover {
+	background-color: #efe8d7;
+	border: 2px solid  #efe8d7;
+}
+.button5:hover {
+	background-color: #efe8d7;
+	border: 2px solid  #efe8d7;
+}
+
+.button1:hover {
+	background-color: #efe8d7;
+	border: 2px solid  #efe8d7;	
+}
+
+.button2:hover {
+    background-color: #efd7d7;
+    border: 2px solid #efd7d7;
+}
+
+.button1{
+	margin-top:10px;
+	margin-left:18%;
+	background-color:#959d93;
+	padding:20px;
+	color:white;
+	font-size:20px;
+	width:200px;
+	border: 2px solid #959d93;
+	border-radius: 120px;
+	font-family: 'Philosopher', sans-serif;
+}
+.button6{
+	margin-top:10px;
+	margin-left:38%;
+	background-color:#959d93;
+	padding:10px;
+	color:white;
+	font-size:15px;
+	width:170px;
+	border: 2px solid #959d93;
+	border-radius: 120px;
+	font-family: 'Philosopher', sans-serif;
+}
+.button5{
+	margin-left:130%;
+	background-color:#959d93;
+	margin-top:5%;
+	padding:10px;
+	color:white;
+	font-size:15px;
+	width:170px;
+	border: 2px solid #959d93;
+	border-radius: 120px;
+	font-family: 'Philosopher', sans-serif;
+}
+.button2{
+	margin-top:20px;
+	margin-left:50px;
+	background-color:#efe8d7c2;
+	padding:15px;
+	color:white;
+	font-size:20px;
+	width:200px;
+	border: 2px solid #efe8d7;
+	border-radius: 120px;
+	margin-bottom:20px;
+	font-family: 'Philosopher', sans-serif;
+}
+.Rodpe_Principal{
+	background-color:#959d93;
+	margin-top:0px;
+	padding:.5%;
+	text-align:center;
+	color:white;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.Rodpe_Com_Texto{
+	background-color:#959d93;
+	margin-top:60px;
+	padding:3px;
+	text-align:center;
+	color:white;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Cairo', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+}
+.texto1{
+	text-align:center;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	margin-top:80px;
+	padding:20px;
+}
+.Imagens_texto{
+	display:flex;
+	margin-left:75px;	
+	justify-content:center;
+	margin-top:20px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	margin-bottom:0px;
+
+}
+.margem_imagens{
+    margin:20px;
+}
+.margem_imagens1{
+	margin:20px;
+	margin-top:235px;
+}
+.margem_imagens2{
+	margin:20px;
+
+}
+.margem_imagens3{
+	margin:20px;
+}
+
+@media (max-width:1000px) {
+  .Imagens_texto {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+.input{
+    flex-direction: column;
+  }
+}
+
+
+@media(max-width: 1000px) {
+  .Imagens1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 1000px) {
+  .k{
+    flex-direction: column;
+  }
+}
+
+
+@media(max-width: 1000px) {
+ .Display{
+   flex-direction: column;
+  }
+}
+
+@media(max-width: 1000px) {
+ .Displ_con{
+   flex-direction: column;
+  }
+}
+
+
+.container_float{
+	float:right;
+	padding-top:300px;
+}
+.container_float1{
+	float:left;
+	padding-top:300px;
+	margin:100px;
+}
+.texto2{
+	text-align:center;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	margin-top:80px;
+	padding:20px;
+}
+.Imagens1{
+	display:flex;
+	margin-top:20px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Code Pro', monospace;
+	padding:60px;
+	margin-bottom:0px;
+	justify-content:center;
+}
+.texto_principal2{
+	text-align:center;
+	margin-top:200px;
+}
+
+input[type=text]{
+	width: 130%;
+	padding: 20px;
+	margin: 30px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+    height:80px;
+	margin-left:150px;
+	
+}
+
+
+.input{
+	display:flex;
+	margin-right:20%;
+	justify-content:center;
+	
+
+}
+
+
+.ipt1{
+	padding:20px;
+	font-size: 10px;
+	resize: none;
+	margin-left:150px;
+
+}
+.Display{
+	display:flex;	
+	margin-button:10%;
+	margin-right:52%;
+	justify-content:center;
+	padding-top:5%;
+
+}
+
+.text{
+	margin-top:90px;
+	text-align:center;
+}
+
+.textarea {
+	padding: 20px;
+	font-size: 16px;
+	resize: none;
+	margin-left:28%;
+	margin-bottom:80px;
+}
+.textarea1{
+	padding: 20px;
+	font-size: 16px;
+	margin-left:66%;
+	margin-bottom:80px;
+}
+.footer{
+	display:flex;
+	background-color:black;
+	color:gray;
+	margin-top:0px;
+}
+
+.rdape{
+	padding-left:60px;
+	padding-top:10px;
+}
+.ul_rodape{
+	margin-top:0px;
+	margin-left:30%;
+	padding-top:10px;
+}
+.active{
+	color:gray;
+}
+.write_input1{
+	margin:80px;
+	width:100%;
+	margin-top:110px;
+	flex:50%;
+}
+.write_input{
+	margin:80px;
+	width:100%;
+	margin-top:-40px;
+	display: block;
+	flex:50%;
+}
+.h{
+flex:30%;
+width:60%;
+}
+.Displ_cont{
+fex:50%;
+
+}
+.Displ_con{
+display:flex;
+
+}
+.forma{
+margin:10%;
+flex:50%;
+
+}
+.forma1{
+margin:10%;
+flex:50%;
+
+
+}
+.tx{
+margin-left:188px;
+}
+.Write_something{
+
+}
+.Displ_container{
+margin-left:82%;
+}
+</style>
+</head>
+<body>
+<div class="Principal">
+
+<div class="disp_com_list">
+
+<h2>Florist Landing Page </h2>
+
+<ul>
+  <li><a href="#">Landing</a></li>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Gallery</a></li>
+  <li><a href="#">Shop</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">Blog</a></li>
+</ul>
+<i class="fas fa-shopping-cart" style="font-size:100%; margin-top:23px;"></i>
+</div>
+
+
+<div class="texto">
+
+		<h1><span> Flower Shop</span></h1>
+		
+		<p> Nulla tempus sollicitudin dui, ut vehicula lacus porta vel <br>duis urna ligula luctus at feugiat a lacinia ut sem</p>
+</div>
+<button class="button">LEARN MOR</button>
+</div>
+
+<div class="Rodpe_Principal">
+<h1> Free Local Delivery for Orders over $150!</h1>
+
+<h2><a href="#">More Info</a></h2>
+</div>
+
+
+
+
+
+<div class="texto1">
+
+		<h1>Our Specialties</h1>
+		
+		<p> Nulla tempus sollicitudin dui, ut vehicula lacus porta vel duis urna ligula<br>duis urna ligula luctus at feugiat a lacinia ut sem</p>
+</div>
+
+
+
+
+<div class="Imagens_texto">
+
+<div class="margem_imagens">
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-05.jpg" width="100%" height="345">
+<h1>Home & Living</h1>
+<p>
+Fusce ornare vitae purus dictum volutpat. Sed auctor tortor eleifend quam porttitor imperdiet mi blandit.
+</p>
+</div>
+
+<div class="margem_imagens">
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist.jpg" width="100%" height="445">
+<h1>Weddings & Events</h1>
+<p>
+Fusce ornare vitae purus dictum volutpat. Sed auctor tortor eleifend quam porttitor imperdiet mi blandit.</p>
+</div>
+
+<div class="margem_imagens">
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-06.jpg" width="100%" height="345">
+<h1>Custom Bouquets</h1>
+<p>
+Fusce ornare vitae purus dictum volutpat. Sed auctor tortor eleifend quam porttitor imperdiet mi blandit.</p>
+</div>
+</div>
+
+
+<div class="Principal1">
+
+
+<div class="container_float">
+
+<h2>Wedding Arrangements<br><span>50% </span>off </h2>
+<p>
+Fusce ornare vitae purus dictum volutpat<br> Sed auctor tortor eleifend quam porttitor <br>imperdiet mi blandit. Fusce ornare vitae
+</p>
+<button class="button1">LEARN MOR</button>
+</div>
+</div>
+
+ <div class="texto2">
+
+		<h1>Featured Products</h1>
+		
+		<p> Nulla tempus sollicitudin dui, ut vehicula lacus porta vel. Duis urna ligula, luctus at feugiat a <br>lacinia ut sem. Quisque sit amet ipsum ac odio malesuada convallis. Nulla tempus sollicitudin <br>dui, ut vehicula lacus porta vel.  Nulla tempus sollicitudin dui, ut vehicula lacus porta vel. Duis<br> urna ligula, luctus at feugiat a lacinia ut sem.</p>
+</div>
+
+
+
+<div class="Imagens1">
+
+<div class="margem_imagens1">
+<h1>Home & Living</h1>
+<p>
+Fusce ornare vitae purus dictum volutpat. Sed auctor tortor eleifend quam porttitor imperdiet mi blandit.
+</p>
+<button class="button2">LEARN MOR</button>
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-10.jpg" width="100%" height="445">
+
+</div>
+
+<div class="margem_imagens2">
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-07.jpg" width="100%" height="445">
+<h1>Weddings & Events</h1>
+<p>
+Fusce ornare vitae purus dictum volutpat. Sed auctor tortor eleifend quam porttitor imperdiet mi blandit.</p>
+<button class="button2">LEARN MOR</button>
+</div>
+<div class="margem_imagens3">
+<h1>Custom Bouquets</h1>
+<p>
+Fusce ornare vitae purus dictum volutpat. Sed auctor tortor eleifend quam porttitor imperdiet mi blandit.</p>
+<button class="button2">DETAILS</button>
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2019/10/florist-07-1.jpg" width="100%" height="440">
+
+</div>
+</div>
+
+
+<div class="Principal2">
+
+<div class="texto_principal2">
+<h1>Custom Bouquets </h1>
+<p>
+Nulla tempus sollicitudin dui, ut vehicula lacus porta vel. Duis urna ligula, luctus at feugiat a <br>lacinia ut sem. Quisque sit amet ipsum ac odio malesuada convallis.
+</p>
+
+<div class="input">
+<div class="input_margem">
+  <form>
+  <div class="h">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+	</div>
+	
+    <div class="h">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="mail">
+	</div>
+	 </form>
+	</div>
+	 
+	  <div class="input_margem">
+	<form>
+	 <div class="h">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="flower types">
+	</div>
+	
+	 <div class="h">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder=" color palette">
+	</div>
+  
+    
+  </form>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="textarea">
+ 
+<form>
+    <textarea id="subject" name="subject" placeholder="Write something.."style=" width: 50%; height: 130px;"></textarea>
+	<button class="button6">submit</button>
+</form>
+
+ </div> 
+ 
+  </div> 
+
+
+
+
+
+
+
+
+<div class="Principal3">
+
+
+<div class="container_float1">
+
+<h1>Fall Collection </h1>
+<p>
+Nulla tempus sollicitudin dui, ut vehicula lacus porta vel<br> duis urna ligula luctus at feugiat a lacinia ut sem. 
+</p>
+<button class="button1">LEARN MOR</button>
+</div>
+</div>
+
+<div class="texto2">
+
+<div class="img">
+<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/portrait-02.jpg" width="100px" height="100px" style="border-radius: 90px;">
+<p> Nulla tempus sollicitudin dui, ut vehicula lacus porta vel. Duis urna ligula, luctus at feugiat a <br>lacinia ut sem. Quisque sit amet ipsum ac odio malesuada convallis. Nulla tempus sollicitudin <br>dui, ut vehicula lacus porta vel.  Nulla tempus sollicitudin dui, ut vehicula lacus porta vel. Duis<br> urna ligula, luctus at feugiat a lacinia ut sem.</p>
+
+		<h1>Mamun Shikdar</h1>
+</div>		
+		
+		
+
+</div>
+
+<div class="Rodpe_Com_Texto">
+<h1> We Deliver and Ship all over the Country!</h1>
+
+<h2><a href="#">More Info</a></h2>
+</div>
+
+
+
+<div class="Display">
+
+<div class="Displ_container">
+
+<div>
+<h1>Reach Us</h1>
+</div>
+
+<div>
+<h1>Address</h1>
+<p>
+404A, Flower Street<br>
+San Fransisco, CA
+</p>
+
+</div>
+
+<div>
+<h1>Contact</h1>
+<p>
++00 125 456 8754<br>
+diviflowers@gmail.com
+</p>
+</div>
+
+<div>
+<h1>Visit</h1>
+<p>
+M-F:  10am – 3pm<br>
+S-S: 9am – 2pm
+</p>
+</div>
+
+</div>
+
+
+
+		<div class="Displ_container1">
+			<h1 class="tx"> Get In Touch</h1>
+		<div class="Displ_con">	
+    <div class="forma1">
+	<form>	  
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.. "> 
+	  </form>
+	  	  </div>
+		
+	  
+	    <div class="forma">
+		<form>
+	  <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	    </form>
+		</div>
+		
+		</div>
+		
+	<div class="textarea1">
+ 
+<form>
+    <textarea id="subject" name="subject" placeholder="Write something.."style=" width: 300%; height: 130px;"></textarea>
+	<button class="button5">submit</button>
+</form>
+
+ </div> 
+	  </div>
+	 </div>
+
+
+
+
+<div class="k">
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24363939.756984465!2d-19.745365883621638!3d37.299938656960066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smundo!5e0!3m2!1spt-PT!2spt!4v1608739013785!5m2!1spt-PT!2spt" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div class="footer">
+<div class="rdape">
+<h2>Designed by Elegant Themes | Powered by WordPress</h2>
+</div>
+    
+<ul class="ul_rodape">
+  <li><a class="active" href="#home"><i class="fab fa-facebook-f" style="font-size:30px;"></i></a></li>
+  <li><a  class="active" href="#news"><i class="fab fa-twitter" style="font-size:30px;"></i></a></li>
+  <li><a class="active" href="#home"><i class="fas fa-wifi" style="font-size:30px;"></i></a></li>
+   <li><a class="active" href="#home"><i class="fab fa-google-plus-g" style="font-size:30px;"></i></a></li>
+</ul>
+
+</div>
+
+
+</body>
+</html>
+
+
+
+ 
